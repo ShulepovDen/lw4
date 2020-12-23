@@ -52,9 +52,10 @@ window.onload = function upload() {
       currentElem = document.getElementsByClassName('input')[i];
       if (!validator(currentElem.value).checkAll(i).validate()) {
         document.getElementsByClassName('error')[i].style.display = 'inline';
-        currentElem.style.backgroundColor = '#AA0000';
+        currentElem.style.backgroundColor = '#800000';
       } else {
         document.getElementsByClassName('error')[i].style.display = 'none';
+        currentElem.style.backgroundColor = '#27282f';
       }
     }
   };
