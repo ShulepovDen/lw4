@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="form">
+      <div class="form-line">
+        <b class="form-line__text">Name:</b>
+        <div class="validate form-line__name-first">
+          <input
+            type="text"
+            placeholder="First"
+            id="name-first"
+            class="input form-line__name-first__input"
+          />
+          <span class="error form-line__name-first__error">Expected input First Name</span>
+        </div>
+        <div class="validate form-line__name-second">
+          <input
+            type="text"
+            placeholder="Last"
+            id="name-second"
+            class="input form-line__name-second__input"
+          />
+          <span class="error form-line__name-second__error">Expected input Second Name</span>
+        </div>
+      </div>
+      <div class="form-line">
+        <b class="form-line__text">E-Mail:</b>
+        <div class="validate form-line__email">
+          <input
+            type="email"
+            placeholder="E-Mail"
+            id="email"
+            class="input form-line__email__input"
+          />
+          <span class="error form-line__email__error">Expected input EMail</span>
+        </div>
+      </div>
+      <div class="form-line">
+        <b class="form-line__text">Password:</b>
+        <div class="validate form-line__password">
+          <input
+            type="password"
+            placeholder="Password"
+            id="password"
+            class="input form-line__password__input"
+          />
+          <span class="error form-line__password__error">Expected input Password</span>
+        </div>
+      </div>
+      <div class="signup-button"><div class="btn" role="button" tabindex="0">Log In</div></div>
+    </div>
+  </body>
+</html>
